@@ -1,5 +1,10 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import pages.HotelBookingPage;
+
 public class HotelBookingStepDefinitions {
     private HotelBookingPage hotelBookingPage;
 
@@ -13,6 +18,7 @@ public class HotelBookingStepDefinitions {
 
     @When("the user selects {string} as the destination")
     public void user_selects_destination(String destination) {
+        hotelBookingPage.activateDestination();
         hotelBookingPage.selectDestination(destination);
     }
 

@@ -1,5 +1,6 @@
 Feature: Hotel Booking with Availability Filtering
 
+  @Filter
   Scenario: User filters hotels in Barcelona for a week with low availability
     Given the user is on the HRS booking portal
     When the user selects "Barcelona" as the destination

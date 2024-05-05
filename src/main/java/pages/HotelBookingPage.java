@@ -5,21 +5,30 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-    public class HotelBookingPage {
+import java.util.concurrent.TimeUnit;
+
+public class HotelBookingPage {
 
         private WebDriver driver;
 
         public HotelBookingPage() {
             // Initialize WebDriver
-            System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
             driver = new ChromeDriver();
         }
 
         public void navigateToBookingPortal() {
             // Navigate to the HRS booking portal URL
-            driver.get("https://your-booking-portal-url.com");
+            driver.get("https://www.hrs.de/");
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.findElement(By.xpath("//button[text()='Accept All Cookies']")).click();
         }
 
+        public void activateDestination(){
+            WebElement destinaion = driver.findElement(By.xpath("//span[text()='Ort, Hotel, Region, Adresse, PLZ']"));
+            destinaion.click();
+        }
         public void selectDestination(String destination) {
             // Locate and select the destination input field
             WebElement destinationInput = driver.findElement(By.id("destinationInput"));
