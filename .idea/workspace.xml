@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="583dc8cf-99a6-4560-b54b-3d03ad260a42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HotelBookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HotelBookingStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HotelBookingStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HotelBookingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HotelBookingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/HotelBookingStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/HotelBookingStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hrs.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AvailabilityFiltering.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="untitled" />
+      <module name="hrs" />
       <option name="NAME_FILTER" value="^User filters hotels in Barcelona for a week with low availability$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User filters hotels in Barcelona for a week with low availability$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User filters hotels in Barcelona for a week with low availability" />
@@ -78,7 +73,7 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
+      <module name="hrs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runner.*" />
@@ -112,6 +107,7 @@
       <workItem from="1714912215997" duration="147000" />
       <workItem from="1714912383716" duration="41000" />
       <workItem from="1714912443322" duration="5073000" />
+      <workItem from="1714918960075" duration="20000" />
     </task>
     <servers />
   </component>
