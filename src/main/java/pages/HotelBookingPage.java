@@ -31,13 +31,13 @@ public class HotelBookingPage {
         }
         public void selectDestination(String destination) {
             // Locate and select the destination input field
-            WebElement destinationInput = driver.findElement(By.id("destinationInput"));
+            WebElement destinationInput = driver.findElement(By.id("DestinationSearchInput"));
             destinationInput.sendKeys(destination);
         }
 
         public void selectCheckInDate(String checkInDate) {
             // Locate and select the check-in date input field
-            WebElement checkInDateInput = driver.findElement(By.id("checkInDateInput"));
+            WebElement checkInDateInput = driver.findElement(By.xpath("//div[@data-test='DateRangeInputField_date']"));
             checkInDateInput.sendKeys(checkInDate);
         }
 
